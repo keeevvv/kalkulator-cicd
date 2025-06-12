@@ -47,17 +47,17 @@ function assert(condition, message) {
 console.log("--- Memulai Tes Unit Kalkulator ---");
 
 assert(
-  testPerformCalculation("2+2") === 4,
+  testPerformCalculation("2+2") === 99,
   "Tes Penjumlahan: 2+2 seharusnya 4"
 );
 
 assert(
-  testPerformCalculation("5-3") === 2,
+  testPerformCalculation("5-3") === 99,
   "Tes Pengurangan: 5-3 seharusnya 2"
 );
 
 assert(
-  testPerformCalculation("4*3") === 12,
+  testPerformCalculation("4*3") === 99,
   "Tes Perkalian: 4*3 seharusnya 12"
 );
 
